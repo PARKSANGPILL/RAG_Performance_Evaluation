@@ -12,11 +12,11 @@
 
 ## 사용 방법
 1. Ollama를 설치합니다
-   '''
+   ```
    https://ollama.com/download
-   '''
+   ```
 2. 필요한 라이브러리를 설치합니다
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 3. .env파일에서 Upstage API 키와 PDF file path를 환경 변수로 설정합니다
