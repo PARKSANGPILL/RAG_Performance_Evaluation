@@ -1,7 +1,7 @@
 # Upstage의 Groundedness Check를 통한 RAG 성능 평가
 
 ## 기능
-- 최신 LLM인 llama3.2를 사용할 수 있음
+- 최신 LLM인 llama3.2 3B를 사용할 수 있음
 - Upstage의 Groundedness Check를 통해 RAG 성능을 평가
 - 임베딩 포함 전과정 무료화
 
