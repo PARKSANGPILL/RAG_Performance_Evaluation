@@ -31,3 +31,12 @@
    ```
    python main.py
    ```
+
+## 예시
+- 한국은행「금융안정보고서」(2024년 6월)를 사용하여 만든 예시
+   ```
+   https://eiec.kdi.re.kr/policy/materialView.do?num=253308
+   ```
+- 사용한 질문은 2개 "What is the outlook for the Korean economy when assessing the risks?", "What are the factors that could pose a threat to the economy?"
+- 평가 결과
+  ![example](https://github.com/user-attachments/assets/2be3c59a-b1b4-4167-8620-4ca0d736ede8)
