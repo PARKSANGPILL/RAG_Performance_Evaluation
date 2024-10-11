@@ -19,12 +19,12 @@
    ```
    pip install -r requirements.txt
    ```
-3. .env파일에서 Upstage API 키와 PDF file path를 환경 변수로 설정합니다.
+3. .env파일에서 Upstage API 키와 PDF file path를 환경 변수로 설정합니다.   
 4. powershell에서 다음 스크립트를 실행합니다.
    ```
    ollama run llama3.2
    ```
-5. q_list에 RAG 평가 질문들을 입력합니다.
+5. q_list에 RAG 평가 질문들을 입력합니다.   
 6. 다음 스크립트를 실행합니다.
    ```
    python main.py
