@@ -39,19 +39,26 @@ def main():
         | StrOutputParser()
     )
 
-    q_list = ["What is the outlook for the Korean economy when assessing the risks?"]
-
     groundedness_check = UpstageGroundednessCheck()
 
+    q_list = [
+        "What is the outlook for the Korean economy when assessing the risks?", 
+        "What are the factors that could pose a threat to the economy?",
+        ]
+    
+    rag_dicts = {}
     for q in q_list:
-
+        rag_dicts[q] = rag_chain.invoke(q)
+        print("-----------------------")
+        print(f"Question: {q}")
+        print(f"Answer: {rag_dicts[q]}")
         request_input = {
             "context": q,
-            "answer": rag_chain.invoke(q),
+            "answer": rag_dicts[q],
         }
-
         response = groundedness_check.invoke(request_input)
-        print(response)
+        print(f"RAG test is {response}")
+        print("-----------------------")
 
 
 if __name__=='__main__':
