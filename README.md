@@ -3,7 +3,7 @@
 ## 기능
 - 최신 LLM인 llama3.2를 사용할 수 있음
 - Upstage의 Groundedness Check를 통해 RAG 성능을 평가
-- 임베딩 포함 전과정을 완전 무료화
+- 임베딩 포함 전과정 무료화
 
 ## 필요한 것
 - Python 3.10
